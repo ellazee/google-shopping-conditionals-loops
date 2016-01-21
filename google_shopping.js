@@ -47,12 +47,12 @@ for (var i = 0; i < items.length; i++) {
 console.log("#4: Number of Canons = " + Canon)
 
 // 5. Number of Canon items from ebay seller
-var ebayCanon = 0
+var ebayCanon = 0;
 for (var i = 0; i < items.length; i++) {
-	if (items[i]["product"].author.name.includes("ebay") && items[i]["product"].brand.includes("Canon") {
+	if (items[i]["product"].author.name.includes("ebay") && items[i]["product"].brand.includes("Canon")) {
 		ebayCanon++
 } }
-console.log("#5: Number of ebayers selling Canons = " + ebayCanon)
+console.log("#5: Number of ebayers selling Canons = " + ebayCanon);
 
 // 6. List all products with brand and price
 console.log(items[i]["product"].brand + items[i]["product"].inventories.price + items[i]["product"].images.link)
